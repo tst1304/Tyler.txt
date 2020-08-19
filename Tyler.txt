@@ -1,0 +1,49 @@
+PS C:\Users\tyler> mkdir SoftDevI
+
+
+    Directory: C:\Users\tyler
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/19/2020   2:17 PM                SoftDevI
+PS C:\Users\tyler> cd SoftDevI
+PS C:\Users\tyler\SoftDevI> mkdir C:\Users\tyler\SoftDevI\Unit01
+
+
+    Directory: C:\Users\tyler\SoftDevI
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/19/2020   2:21 PM                Unit01
+PS C:\Users\tyler\SoftDevI> cd C:\Users\tyler\SoftDevI\Unit01
+cp file01.txt file02.txt
+PS C:\Users\tyler\SoftDevI\Unit01> mkdir C:\Users\tyler\SoftDevI\Unit01\Assignment01
+
+
+    Directory: C:\Users\tyler\SoftDevI\Unit01
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/19/2020   2:32 PM                Assignment01
+PS C:\Users\tyler\SoftDevI\Unit01\Assignment01>
+PS C:\Users\tyler\SoftDevI\Unit01\Assignment01> mkdir C:\Users\tyler\SoftDevI\Unit01\Assignment01\Tyler
+
+
+    Directory: C:\Users\tyler\SoftDevI\Unit01\Assignment01
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/19/2020   2:34 PM                Tyler
+PS C:\Users\tyler\SoftDevI\Unit01\Assignment01> cd C:\Users\tyler\SoftDevI\Unit01\Assignment01\Tyler
+PS C:\Users\tyler\SoftDevI\Unit01\Assignment01\Tyler> mv C:\Users\tyler\SoftDevI\Unit01\file02.txt
+PS C:\Users\tyler\SoftDevI\Unit01\Assignment01\Tyler> notepad file02.txt
+PS C:\Users\tyler\SoftDevI\Unit01> rm C:\Users\tyler\SoftDevI\Unit01\Assignment01
+
+Confirm
+The item at C:\Users\tyler\SoftDevI\Unit01\Assignment01 has children and the Recurse parameter was not specified. If
+you continue, all children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
